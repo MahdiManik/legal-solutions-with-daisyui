@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+
+    <!-- cdn of tailwind css and daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font family` -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins&display=swap"
+        rel="stylesheet">
+
+    <!-- google font icons -->
+
+    <script src="https://kit.fontawesome.com/8db2361e35.js" crossorigin="anonymous"></script>
+
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-color': '#B68C5A'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .eb-garamond {
+            font-family: 'EB Garamond', serif;
+        }
+
+        .poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body class="eb-garampnd">
+    <!-- header sections -->
+    <header class="max-w-screen-xl mx-auto px-5 py-8">
+        <!-- nav sections -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="flex justify-v navbar-start">
+                    <div class="dropdown">
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
+                            <li><a>Home</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost normal-case text-2xl eb-garamond"><img class="bg-black" src="./images/logo.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal space-x-6 px-6 poppins flex justify-between">
+                        <li><a>Home <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Contact Us<i class="fa-solid fa-angle-right"></i> </a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn poppins text-white bg-primary-color ">Free Consultation</a>
+                </div>
+            </div>
+        </nav>
+        <!-- hero section  -->
+
+        <div class="relative bg-black image-full left-0 top-0 ">
+            <figure><img src="/images/banner.png" alt="" /></figure>
+            <div class="card-body absolute lg:px-40 left-[10%] right-[10%] bottom-24 text-center text-white space-y-4">
+              <h2 class="text-6xl leading-tight  eb-garamond font-extrabold">We Provide Effective <br> Legal Solutions</h2>
+              <p class="poppins text-base">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+              <form class="" action="">
+                <input class="max-w-sm px-52 py-3 rounded-md text-black" id="name" type="text" name="" placeholder="Search your services">
+                <input class="px-6 py-3 bg-primary-color rounded-md ml-2" type="submit" value="Search">
+              </form>
+            </div>
+          </div>
+    </header>
+    <!-- main sections -->
+    <main class="max-w-screen-xl mx-auto px-5 py-8">
+
+    </main>
+    <!-- footer sections -->
+    <footer class="max-w-screen-xl mx-auto px-5 py-8">
+
+    </footer>
+</body>
+
+</html>
